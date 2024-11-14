@@ -7,7 +7,8 @@ import { Movie } from './movie.interface';
   providedIn: 'root'
 })
 export class MovieService {
-  private baseUrl = 'http://127.0.0.1:8000/api/movies';
+  // private baseUrl = 'http://127.0.0.1:8000/api/movies';
+  private baseUrl = 'https://actividad33catalogo-production.up.railway.app:9000/api/movies'
 
   constructor(private http: HttpClient) { }
 
